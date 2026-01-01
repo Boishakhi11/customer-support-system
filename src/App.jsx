@@ -1,12 +1,12 @@
 import { ToastContainer} from 'react-toastify';
 import './App.css'
+import Header from './Header/Header';
 
 function App() {
  
   return (
     <>
-      <h1 className='text-center text-red-400'>New</h1>
-      
+      <Header/>    
       <ToastContainer />
     </>
   )
