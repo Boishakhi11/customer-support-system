@@ -12,8 +12,7 @@ function App() {
  const ticketsPromise = loadTickets();
 
   return (
-    <>
-      <Header/>  
+    <> 
       <Suspense fallback={"Loading Tickets"}>
               <Tickets tickets={ticketsPromise}/> 
       </Suspense>
