@@ -1,4 +1,4 @@
-import { faFacebook, faTwitter, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -6,7 +6,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='bg-neutral text-neutral-content'>
+        <div className='bg-neutral text-neutral-content mt-24'>
             <footer className="footer sm:footer-horizontal p-10">
                 <aside className='max-w-[350px]'>
                     <h1>CS- Ticket System</h1>

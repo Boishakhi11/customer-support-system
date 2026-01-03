@@ -8,12 +8,12 @@ const Navbar = () => {
             </div>
     
             <div className="navbar-end gap-3">
-                <a className='text-[16px] text-gray-500' href="">Home</a>
-                <a className='text-[16px] text-gray-500' href="">FAQ</a>
-                <a className='text-[16px] text-gray-500' href="">Changelog</a>
-                <a className='text-[16px] text-gray-500' href="">Blog</a>
-                <a className='text-[16px] text-gray-500' href="">Download</a>
-                <a className='text-[16px] text-gray-500' href="">Contact</a>
+                <a className='text-[16px] text-gray-500 hidden lg:block' href="">Home</a>
+                <a className='text-[16px] text-gray-500 hidden lg:block' href="">FAQ</a>
+                <a className='text-[16px] text-gray-500 hidden lg:block' href="">Changelog</a>
+                <a className='text-[16px] text-gray-500 hidden lg:block' href="">Blog</a>
+                <a className='text-[16px] text-gray-500 hidden lg:block' href="">Download</a>
+                <a className='text-[16px] text-gray-500 hidden lg:block' href="">Contact</a>
                 <a className="btn text-white text-[16px] font-semibold bg-gradient-to-r from-purple-800 via-purple-600 to-purple-500">+New Tickets</a>
             </div>
         </div>

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Login issue",
+    "description": "Customer is unable to log in using valid credentials.",
+    "customer": "Alice Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment not processed",
+    "description": "Payment was deducted but order status shows pending.",
+    "customer": "Mark Peterson",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2025-01-01"
+  },
+  {
+    "id": 3,
+    "title": "Password reset email not received",
+    "description": "Customer did not receive password reset email after multiple attempts.",
+    "customer": "Sara Ahmed",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-01-01"
+  },
+  {
+    "id": 4,
+    "title": "Account suspended without notice",
+    "description": "Customer reports account suspension without prior warning.",
+    "customer": "John Williams",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-01"
+  },
+  {
+    "id": 5,
+    "title": "Unable to upload documents",
+    "description": "File upload fails with a timeout error.",
+    "customer": "Emily Chen",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-01-01"
+  },
+  {
+    "id": 6,
+    "title": "Incorrect invoice generated",
+    "description": "Invoice amount does not match the selected plan.",
+    "customer": "Robert Smith",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2025-01-01"
+  },
+  {
+    "id": 7,
+    "title": "Slow application performance",
+    "description": "Application is very slow during peak hours.",
+    "customer": "Linda Martinez",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-01-01"
+  },
+  {
+    "id": 8,
+    "title": "Feature request: Dark mode",
+    "description": "Customer requests a dark mode option for the dashboard.",
+    "customer": "Daniel Lee",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-01-01"
+  },
+  {
+    "id": 9,
+    "title": "Email notifications not working",
+    "description": "Customer is not receiving email notifications for updates.",
+    "customer": "Fatima Noor",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-01-01"
+  },
+  {
+    "id": 10,
+    "title": "Data export failure",
+    "description": "Exporting data to CSV results in an empty file.",
+    "customer": "Michael Brown",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-01"
+  }
+]

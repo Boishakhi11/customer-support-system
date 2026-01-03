@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div>
             <Navbar/>
-            <div className='w-11/12 mx-auto flex flex-col md:flex-row gap-4'>
+            <div className='w-11/12 mx-auto flex flex-col md:flex-row gap-4 mt-18'>
                 <div className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] rounded-md flex-1 min-h-40 md:min-h-55 relative overflow-hidden'>
                          <div className='absolute w-36 md:w-48 
                          h-full left-0 top-0 
