@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 
-const Header = ({inProgress}) => {
+const Header = ({inProgress, resolved}) => {
     return (
         <div>
             <Navbar/>
@@ -36,7 +36,7 @@ const Header = ({inProgress}) => {
 
                         <div className='absolute inset-0 flex flex-col items-center justify-center text-white z-10 space-y-2'>
                             <p className='text-2xl'>Resolved</p>
-                            <h2 className='font-semibold text-6xl'>0</h2>
+                            <h2 className='font-semibold text-6xl'>{resolved}</h2>
                         </div> 
                 </div>
             </div>
